@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 40 420 360"
+   width="420"
+   height="360"
+   version="1.1"
+   id="svg29"
+   sodipodi:docname="orion_diagram.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs29" />
+  <sodipodi:namedview
+     id="namedview29"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.9703635"
+     inkscape:cx="182.45365"
+     inkscape:cy="206.56088"
+     inkscape:window-width="2009"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="44"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg29" />
+  <rect
+     width="420"
+     height="400"
+     fill="#0a1628"
+     id="rect1" />
+  <!-- タイトル -->
+  <!-- 星座全体を右下がりに傾ける（約-47度）、上に移動 -->
+  <g
+     id="g29">
+    <g
+       transform="rotate(-47, 220, 200)"
+       id="g21">
+      <!-- 星座線 -->
+      <g
+         stroke="#666"
+         stroke-width="1.5"
+         id="g8">
+        <!-- 肩 -->
+        <line
+           x1="130"
+           y1="80"
+           x2="250"
+           y2="75"
+           id="line1" />
+        <!-- 肩からベルト -->
+        <line
+           x1="130"
+           y1="80"
+           x2="155"
+           y2="190"
+           id="line2" />
+        <line
+           x1="250"
+           y1="75"
+           x2="225"
+           y2="180"
+           id="line3" />
+        <!-- ベルト -->
+        <line
+           x1="155"
+           y1="190"
+           x2="190"
+           y2="185"
+           id="line4" />
+        <line
+           x1="190"
+           y1="185"
+           x2="225"
+           y2="180"
+           id="line5" />
+        <!-- ベルトから足 -->
+        <line
+           x1="155"
+           y1="190"
+           x2="125"
+           y2="350"
+           id="line6" />
+        <line
+           x1="225"
+           y1="180"
+           x2="260"
+           y2="330"
+           id="line7" />
+        <!-- 足の間 -->
+        <line
+           x1="125"
+           y1="350"
+           x2="260"
+           y2="330"
+           id="line8" />
+      </g>
+      <!-- 星 -->
+      <!-- ベテルギウス（左上・赤） -->
+      <circle
+         cx="130"
+         cy="80"
+         r="11"
+         fill="#ff6b6b"
+         id="circle8" />
+      <circle
+         cx="130"
+         cy="80"
+         r="7"
+         fill="#ff8888"
+         id="circle9" />
+      <!-- ベラトリックス（右上） -->
+      <circle
+         cx="250"
+         cy="75"
+         r="7"
+         fill="#aaccff"
+         id="circle10" />
+      <circle
+         cx="250"
+         cy="75"
+         r="4"
+         fill="#ddeeff"
+         id="circle11" />
+      <!-- ミンタカ（ベルト右） -->
+      <circle
+         cx="225"
+         cy="180"
+         r="5"
+         fill="#aaccff"
+         id="circle12" />
+      <circle
+         cx="225"
+         cy="180"
+         r="3"
+         fill="#ddeeff"
+         id="circle13" />
+      <!-- アルニラム（ベルト中央） -->
+      <circle
+         cx="190"
+         cy="185"
+         r="6"
+         fill="#aaccff"
+         id="circle14" />
+      <circle
+         cx="190"
+         cy="185"
+         r="4"
+         fill="#ddeeff"
+         id="circle15" />
+      <!-- アルニタク（ベルト左） -->
+      <circle
+         cx="155"
+         cy="190"
+         r="5"
+         fill="#aaccff"
+         id="circle16" />
+      <circle
+         cx="155"
+         cy="190"
+         r="3"
+         fill="#ddeeff"
+         id="circle17" />
+      <!-- サイフ（左下） -->
+      <circle
+         cx="125"
+         cy="350"
+         r="5"
+         fill="#aaccff"
+         id="circle18" />
+      <circle
+         cx="125"
+         cy="350"
+         r="3"
+         fill="#ddeeff"
+         id="circle19" />
+      <!-- リゲル（右下・青白） -->
+      <circle
+         cx="260"
+         cy="330"
+         r="9"
+         fill="#7eb8ff"
+         id="circle20" />
+      <circle
+         cx="260"
+         cy="330"
+         r="5"
+         fill="#c0e0ff"
+         id="circle21" />
+    </g>
+  </g>
+  <!-- ラベル（回転後の位置に合わせて調整） -->
+  <text
+     x="55"
+     y="150.43231"
+     text-anchor="middle"
+     id="text21"
+     style="font-size:13px;fill:#ffffff">ベテルギウス</text>
+  <text
+     x="49.417271"
+     y="165.95488"
+     text-anchor="middle"
+     font-size="10px"
+     fill="#ff8888"
+     id="text22">(赤色超巨星)</text>
+  <text
+     x="153.57156"
+     y="79.672974"
+     text-anchor="middle"
+     id="text23"
+     style="font-size:13px;fill:#ffffff">ベラトリックス</text>
+  <text
+     x="221.31587"
+     y="188.83502"
+     text-anchor="start"
+     id="text24"
+     style="font-size:13px;fill:#ffffff">ミンタカ</text>
+  <text
+     x="199.5114"
+     y="219.29741"
+     text-anchor="start"
+     id="text25"
+     style="font-size:13px;fill:#ffffff">アルニラム</text>
+  <text
+     x="184.81223"
+     y="248.17708"
+     text-anchor="start"
+     id="text26"
+     style="font-size:13px;fill:#ffffff">アルニタク</text>
+  <text
+     x="294.85007"
+     y="380.86462"
+     text-anchor="middle"
+     id="text27"
+     style="font-size:13px;fill:#ffffff">サイフ</text>
+  <text
+     x="357.61282"
+     y="230.62009"
+     text-anchor="middle"
+     id="text28"
+     style="font-size:13px;fill:#ffffff">リゲル</text>
+  <text
+     x="358.62787"
+     y="245.12762"
+     text-anchor="middle"
+     font-size="10px"
+     fill="#7eb8ff"
+     id="text29">(青色超巨星)</text>
+</svg>
