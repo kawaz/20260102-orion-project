@@ -26,6 +26,8 @@
 | <a href="02_original_1934.jpg"><img src="02_original_1934.jpg" width="80"></a> | [`02_original_1934.jpg`](02_original_1934.jpg) | 19:34撮影の元画像 |
 | <a href="03_original_2045.jpg"><img src="03_original_2045.jpg" width="80"></a> | [`03_original_2045.jpg`](03_original_2045.jpg) | 20:45撮影の元画像 |
 
+※ iPhone上(HEIC)では凄くハッキリ星の配置が見えたが、JPEGに変換したら星が見えなくなってしまった…
+
 ### 座標検出用の手動マーカー付き画像
 
 | サムネイル | ファイル名 | 説明 |
@@ -33,6 +35,8 @@
 | <a href="04_marked_1905.jpg"><img src="04_marked_1905.jpg" width="80"></a> | [`04_marked_1905.jpg`](04_marked_1905.jpg) | 19:05の画像に星（黄色）と地上特徴点（赤色）をマーキング |
 | <a href="05_marked_1934.jpg"><img src="05_marked_1934.jpg" width="80"></a> | [`05_marked_1934.jpg`](05_marked_1934.jpg) | 19:34の画像に星（黄色）と地上特徴点（赤色）をマーキング |
 | <a href="06_marked_2045.jpg"><img src="06_marked_2045.jpg" width="80"></a> | [`06_marked_2045.jpg`](06_marked_2045.jpg) | 20:45の画像に星（黄色）と地上特徴点（赤色）をマーキング |
+
+※ iPhone上では凄くハッキリ星の配置が見えていたので、iPhone上で先に手動で星の位置にマーキングを加えて、その後JPEG化した画像です。
 
 **マーキング内容**:
 - 黄色マーカー（6〜7個）: オリオン座の主要な星
@@ -44,14 +48,14 @@
 
 | サムネイル | ファイル名 | 説明 |
 |:---:|-----------|------|
-| <a href="07_composite.jpg"><img src="07_composite.jpg" width="80"></a> | [`07_composite.jpg`](07_composite.jpg) | 3枚の画像を地上基準で合成した画像 |
-| <a href="08_composite_marked.jpg"><img src="08_composite_marked.jpg" width="80"></a> | [`08_composite_marked.jpg`](08_composite_marked.jpg) | 3枚のマーキング付き画像を地上基準で合成した画像 |
+| <a href="07_composite.jpg"><img src="07_composite.jpg" width="80"></a> | [`07_composite.jpg`](07_composite.jpg) | 3枚の画像(星マーキングなし)を地上基準で合成した画像 |
+| <a href="08_composite_marked.jpg"><img src="08_composite_marked.jpg" width="80"></a> | [`08_composite_marked.jpg`](08_composite_marked.jpg) | 3枚の画像(星マーキングあり)を地上基準で合成した画像 |
 
 **合成方法**:
 1. 地上の赤マーカー5点を使ってホモグラフィ変換行列を計算
-2. 2枚目・3枚目を1枚目基準に変換
+2. 2枚目・3枚目を1枚目基準に変換（今回はカメラを固定しない手持ち撮影だったので、写っている範囲やカメラの確度違いがあるがそれを考慮して平行移動、回転、スケール調整、台形変形の処理を行う）
 3. 3枚を不透明度1/3ずつにして加算合成
-4. これにより地上が揃い、星の動きが軌跡として表現される
+4. これにより地上が揃い、星の動きが軌跡として表現しやすくなった
 
 ### 完成画像
 
